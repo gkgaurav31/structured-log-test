@@ -36,8 +36,8 @@ public class HelloController {
 
 		MDC.put("first", "Richard");
 		MDC.put("last", "Nixon");
-		logger.info("I am not a crook.");
-		logger.info("Attributed to the former US president. 17 Nov 1973.");
+		logger.info("A default test message");
+		logger.info("Some random message");
 		
 		return "Done";
 	}
